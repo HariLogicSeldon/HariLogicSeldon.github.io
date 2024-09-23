@@ -21,9 +21,9 @@ repository               : "harilogicseldon/harilogicseldon.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Hari Zuo"
-  pronouns         : "he/him" # example: "she/her"  
+  pronouns         :  # example: "she/her"  
   bio              : "Passion Seeker(often aimless) "
   location         : "ShangHai City"
   employer         : "East China Normal University"
