@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 ---
 layout: archive
 permalink: /year-photo-archive/
@@ -6,33 +7,53 @@ author_profile: true
 redirect_from:
   - /wordpress/photos/
 ---
-{% assign photos_path = 'images/_photos' %}
-<div class="gallery">
-  {% for file in site.static_files %}
-  {% if file.path contains photos_path %}
-  <img src="{{ file.path | relative_url }}" alt="Photo" class="gallery__image">
-  {% endif %}
-  {% endfor %}
-</div>
 
-<style>
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    max-width: 90%;
-    margin: 20px auto;
-  }
-  .gallery__image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-  .gallery__image:hover {
-    transform: scale(1.05);
-  }
-</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Wall</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      max-width: 90%;
+      margin: 20px auto;
+    }
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+<div class="gallery">
+  <img src="_photos/photo1.jpg" alt="Photo 1">
+  <img src="_photos/photo2.jpg" alt="Photo 2">
+  <img src="_photos/photo3.jpg" alt="Photo 3">
+  <img src="_photos/photo4.jpg" alt="Photo 4">
+  <img src="_photos/photo5.jpg" alt="Photo 5">
+  <img src="_photos/photo6.jpg" alt="Photo 6">
+  <!-- 可以根据需要添加更多的图片 -->
+</div>
+</body>
+</html>
