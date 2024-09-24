@@ -23,6 +23,9 @@ main:
     url: /tags/
   - title: "CV"
     url: /cv/
+  - title: "SiteMap"
+    url: /sitemap/
+
 #
 #  - title: "Guide"
 #    url: /markdown/
