@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hariiet.life/sitemap.xml
+Sitemap: https://harilogicseldon.github.io/sitemap.xml
