@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harilogicseldon.github.io/sitemap.xml

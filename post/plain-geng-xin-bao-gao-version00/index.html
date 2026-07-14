@@ -1,0 +1,232 @@
+<html>
+
+<head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Gridea Pro 1.2.2">
+<title>Plain 更新报告-Version0.0 | Gridea Pro</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1784014398">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Plain 更新报告-Version0.0 | Gridea Pro - Atom Feed" href="/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+<meta name="description" content="核心功能奠基与自动化流程构建 本阶段重点在于搭建应用的基础架构，优化小票 OCR 识别精度，并实现深度系统集成（iOS 快捷指令）。 1. 核心架构设计 数据持久化 (BudgetStore): 建立了基于 @Observable 的核心状态管理系统，支持多账本、多币种以及动态预算计算逻辑。 视图层级: 完成了 MainTabView 的&amp;hellip;">
+<link rel="canonical" href="https://harilogicseldon.github.io/post/plain-geng-xin-bao-gao-version00/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Plain 更新报告-Version0.0","url":"https://harilogicseldon.github.io/post/plain-geng-xin-bao-gao-version00/","description":"核心功能奠基与自动化流程构建 本阶段重点在于搭建应用的基础架构，优化小票 OCR 识别精度，并实现深度系统集成（iOS 快捷指令）。 1. 核心架构设计 数据持久化 (BudgetStore): 建立了基于 @Observable 的核心状态管理系统，支持多账本、多币种以及动态预算计算逻辑。 视图层级: 完成了 MainTabView 的\u0026hellip;","image":"/post-images/plain-geng-xin-bao-gao-version00.jpeg","datePublished":"2026-04-02T14:33:52+08:00","dateModified":"2026-04-02T14:33:52+08:00","author":{"@type":"Person","name":"Gridea Pro"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"Gridea Pro"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://harilogicseldon.github.io","name":"Gridea Pro","position":1},{"@type":"ListItem","item":"https://harilogicseldon.github.io/post/plain-geng-xin-bao-gao-version00/","name":"Plain 更新报告-Version0.0","position":2}]}</script>
+<meta property="og:title" content="Plain 更新报告-Version0.0">
+<meta property="og:description" content="核心功能奠基与自动化流程构建 本阶段重点在于搭建应用的基础架构，优化小票 OCR 识别精度，并实现深度系统集成（iOS 快捷指令）。 1. 核心架构设计 数据持久化 (BudgetStore): 建立了基于 @Observable 的核心状态管理系统，支持多账本、多币种以及动态预算计算逻辑。 视图层级: 完成了 MainTabView 的&amp;hellip;">
+<meta property="og:url" content="https://harilogicseldon.github.io/post/plain-geng-xin-bao-gao-version00/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gridea Pro">
+<meta property="og:image" content="/post-images/plain-geng-xin-bao-gao-version00.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://harilogicseldon.github.io/post/plain-geng-xin-bao-gao-version00/">
+<meta name="twitter:title" content="Plain 更新报告-Version0.0">
+<meta name="twitter:description" content="核心功能奠基与自动化流程构建 本阶段重点在于搭建应用的基础架构，优化小票 OCR 识别精度，并实现深度系统集成（iOS 快捷指令）。 1. 核心架构设计 数据持久化 (BudgetStore): 建立了基于 @Observable 的核心状态管理系统，支持多账本、多币种以及动态预算计算逻辑。 视图层级: 完成了 MainTabView 的&amp;hellip;">
+<meta name="twitter:image" content="/post-images/plain-geng-xin-bao-gao-version00.jpeg">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-content">
+            
+<div class="site-header">
+    <a href="/">
+        <img class="avatar" src="/images/avatar.png?v=1784014398" alt="">
+    </a>
+    <h1 class="site-title">
+        Gridea Pro
+    </h1>
+    <p class="site-description">
+        Welcome to Gridea Pro
+    </p>
+    <div class="menu-container">
+        
+        
+        <a href="/" class="menu">
+            首页
+        </a>
+        
+        
+        
+        <a href="/post" class="menu">
+            博客
+        </a>
+        
+        
+        
+        <a href="/memos" class="menu">
+            闪念
+        </a>
+        
+        
+        
+        <a href="/archives" class="menu">
+            归档
+        </a>
+        
+        
+        
+        <a href="/tags" class="menu">
+            标签
+        </a>
+        
+        
+        
+        <a href="/links" class="menu">
+            友链
+        </a>
+        
+        
+        
+        <a href="/post/about" class="menu">
+            关于
+        </a>
+        
+        
+    </div>
+    <div class="social-container">
+        
+        
+        
+        
+        
+    </div>
+</div>
+
+            <div class="post-detail">
+                <article class="post">
+                    <h2 class="post-title">
+                        Plain 更新报告-Version0.0
+                    </h2>
+                    <div class="post-info">
+                        <span>
+                            2026-04-02
+                        </span>
+                        <span>
+                            1 分钟阅读
+                        </span>
+                        
+                    </div>
+                    
+                    <img class="post-feature-image" src="/post-images/plain-geng-xin-bao-gao-version00.jpeg" alt="">
+                    
+                    <div class="post-content-wrapper">
+                        <div class="post-content" v-pre>
+                            <h2 id="heading">核心功能奠基与自动化流程构建</h2>
+<p>本阶段重点在于搭建应用的基础架构，优化小票 OCR 识别精度，并实现深度系统集成（iOS 快捷指令）。</p>
+<hr />
+<h3 id="1-">1. 核心架构设计</h3>
+<ul>
+<li><strong>数据持久化 (BudgetStore)</strong>: 建立了基于 <code>@Observable</code> 的核心状态管理系统，支持多账本、多币种以及动态预算计算逻辑。</li>
+<li><strong>视图层级</strong>: 完成了 <code>MainTabView</code> 的基础搭建，整合了首页、对账、OCR 导入及数据图表四大核心模块。</li>
+</ul>
+<h3 id="2-ocr--">2. OCR 智能导入优化 (重点突破)</h3>
+<ul>
+<li><strong>小票适配</strong>: 针对语言环境进行了深度优化，提升了商户名和金额的提取精度。</li>
+<li><strong>空间逻辑推理</strong>: 引入了基于文字空间排布的商户匹配逻辑，能够更智能地从复杂背景的小票中定位关键信息。</li>
+<li><strong>账户自动关联</strong>: 根据历史记录和消费习惯，实现了自动匹配支付账户的功能。</li>
+</ul>
+<h3 id="3-ios-">3. iOS 系统深度集成</h3>
+<ul>
+<li><strong>快捷指令 (AppIntents)</strong>: 完成了快捷指令集成，支持通过 Siri 或 iPhone 15/16 Pro 的 Action Button 一键跳转至记账界面。</li>
+<li><strong>自动化流</strong>: 允许用户从小票照片或剪贴板内容直接触发记账流程，极大地缩短了用户操作路径。</li>
+</ul>
+<h3 id="4--ui-">4. 关键体验修复与 UI 优化</h3>
+<ul>
+<li><strong>键盘交互优化</strong>: 解决了对账页面（ReconcileView）中数字键盘缺少“完成”按钮的问题，实现了全局统一的键盘收起机制。</li>
+<li><strong>Logo 品牌重塑</strong>: 对应用 Logo 进行了反色处理，确保在 iOS 系统深色模式及不同壁垒下的视觉协调性。</li>
+<li><strong>预算计算逻辑</strong>: 对 <code>AllowanceCalculator</code> 进行了重构，确保“已用预算”进度条能准确反映当前计费周期的实时数据。</li>
+</ul>
+<h3 id="5-version00">5. Version0.0</h3>
+<div class="img-scroll">
+  <img src="/post-images/1775324396612.PNG">
+  <img src="/post-images/1775324417149.PNG">
+  <img src="/post-images/1775324428203.PNG">
+  <img src="/post-images/1775324439039.PNG">
+</div>
+                        </div>
+                        <div class="toc-container">
+                            
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            
+            <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="/post/yu-shi-da-suan-qiao-ke-yi-tian/">
+                    <h3 class="post-title">
+                        于是打算翘课一天
+                    </h3>
+                </a>
+            </div>
+            
+
+            
+
+            
+<div class="site-footer">
+    Powered by Gridea Pro
+    <a class="rss" href="/atom.xml" target="_blank">
+        <i class="ri-rss-line"></i> RSS
+    </a>
+</div>
+
+        </div>
+    </div>
+
+    <script>
+        hljs.initHighlightingOnLoad()
+
+        let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+        window.addEventListener("scroll", event => {
+            let fromTop = window.scrollY;
+
+            mainNavLinks.forEach((link, index) => {
+                let section = document.getElementById(decodeURI(link.hash).substring(1));
+                let nextSection = null
+                if (mainNavLinks[index + 1]) {
+                    nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+                }
+                if (section.offsetTop <= fromTop) {
+                    if (nextSection) {
+                        if (nextSection.offsetTop > fromTop) {
+                            link.classList.add("current");
+                        } else {
+                            link.classList.remove("current");
+                        }
+                    } else {
+                        link.classList.add("current");
+                    }
+                } else {
+                    link.classList.remove("current");
+                }
+            });
+        });
+
+    </script>
+<script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: inotes v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+
+</html>
