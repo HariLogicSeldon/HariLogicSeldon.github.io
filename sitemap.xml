@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.hariiet.life/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -104,43 +104,43 @@
   </url>
   <url>
     <loc>https://www.hariiet.life/post/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hariiet.life/memos/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.hariiet.life/tags/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.hariiet.life/archives/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.hariiet.life/tag/plain/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.hariiet.life/tag/foto/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.hariiet.life/links/</loc>
-    <lastmod>2026-07-14T21:29:41+08:00</lastmod>
+    <lastmod>2026-07-14T21:33:56+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
